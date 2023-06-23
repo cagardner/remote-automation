@@ -5,5 +5,5 @@ def main_menu():
     while not flag:
         config_menu = config.ConfigurationMenu()
         config_menu.display_menu()
-
-main_menu()
+if __name__ == "__main__":
+    main_menu()
